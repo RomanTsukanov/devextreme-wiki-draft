@@ -16,7 +16,7 @@ Select File > Clone Repository. In the appeared window, do the following:
 - Expand Options and check Do not verify host certificate to prevent the SSL:CERTIFICATE_VERIFY_FAILED error.
 - Click Clone and wait&mdash;this process takes a while.
 
-    [[https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/run-website-on-your-machine-clone-window.jpg]]
+    ![Clone window](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/run-website-on-your-machine-clone-window.jpg?raw=true)
 
 ### Update security settings
 
@@ -94,7 +94,7 @@ You can also generate content maps manually. This may be needed if the website p
 
         npm i
 
-    If the installation fails after the first command, open `package.json` in this folder. Check the following line: `devextreme-internal-tools`. Its value should be `"stable"`.
+    If the installation fails, open `package.json` in this folder. Check the following line: `devextreme-internal-tools`. Its value should be `"stable"`.
 
 1. Run the following command to generate the content maps:
 
