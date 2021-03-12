@@ -22,17 +22,17 @@ Select File > Clone Repository. In the appeared window, do the following:
 
 Open the Security window, query a host fingerprint, and enter your CORP username and password, as shown on the image below:
 
-run-website-on-your-machine-security-window.jpg
+![Security window](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/run-website-on-your-machine-security-window.jpg?raw=true)
 
 ### Open the WebSites.sln solution
 
 Go to the folder with cloned website project and open WebSites.sln in Visual Studio. You may see the following error message:
 
-run-website-on-your-machine-net-framework-error.jpg
+![.NET Framework error](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/run-website-on-your-machine-net-framework-error.jpg?raw=true)
 
 Don't change the framework version. Instead, modify the VS installation to include .NET Framework 4.6.2. In Visual Studio, select Tools > Get Tools and Features to run Visual Studio Installer. In this installer, switch to the Individual components tab, select .NET Framework 4.6.2 components, and click Modify:
 
-run-website-on-your-machine-net-framework-installation.jpg
+![.NET Framework installation](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/run-website-on-your-machine-net-framework-installation.jpg?raw=true)
 
 After installation, try to open WebSites.sln again, and the issue should be gone.
 
@@ -76,7 +76,7 @@ Open WebSites.sln (if you haven't done it yet) and press F5.
 
 Content maps are XML files compiled from .md sources. Each docs version have its own pair of content maps: `JS-ApiReference.xml` and `JS-Howto.xml`. Content maps are stored alongside the md sources:
 
-generate-content-maps-xml-files.jpg
+![Generated content maps](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/generate-content-maps-xml-files.jpg?raw=true)
 
 Usually, content maps are generated automatically when you run the website project. For this, you need node.js:
 
