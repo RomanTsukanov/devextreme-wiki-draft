@@ -16,7 +16,7 @@ Select File > Clone Repository. In the appeared window, do the following:
 - Expand Options and check Do not verify host certificate to prevent the SSL:CERTIFICATE_VERIFY_FAILED error.
 - Click Clone and wait&mdash;this process takes a while.
 
-    run-website-on-your-machine-clone-window.jpg
+    [[/images/run-website-on-your-machine-clone-window.jpg]]
 
 ### Update security settings
 
