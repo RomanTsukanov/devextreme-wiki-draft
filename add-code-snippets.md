@@ -4,10 +4,10 @@ We add code snippets for four frameworks: jQuery, Angular, Vue, and React. They 
 
 ## Table of contents
 
-- [Snippet template]()
-  - [Placeholders]()
-- [Visual Studio Code configuration]()
-- [Keep only relevant code lines]()
+- [Snippet template](#snippet-template)
+  - [Placeholders](#placeholders)
+- [Visual Studio Code configuration](#visual-studio-code-configuration)
+- [Keep only relevant code lines](#keep-only-relevant-code-lines)
 
 ## Snippet template
 
