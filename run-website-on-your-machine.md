@@ -2,7 +2,7 @@
 
 Our website project is stored in the following Mercurial repo: https://hg/mobile_website
 
-Table of contents:
+## Table of contents
 
 - [Configure the website project](#configure-the-website-project)
   - [Download and install TortoiseHg GUI](#download-and-install-tortoisehg-gui)
