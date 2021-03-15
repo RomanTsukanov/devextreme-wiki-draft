@@ -2,6 +2,23 @@
 
 Our website project is stored in the following Mercurial repo: https://hg/mobile_website
 
+Table of contents:
+
+- [Configure the website project](#configure-the-website-project)
+  - [Download and install TortoiseHg GUI](#download-and-install-tortoisehg-gui)
+  - [Clone the website repo](#clone-the-website-repo)
+  - [Update security settings](#update-security-settings)
+  - [Open the WebSites.sln solution](#open-the-websitessln-solution)
+  - [Define WebSites.JS as a startup project](#define-websitesjs-as-a-startup-project)
+  - [Disable "Stop debugger when browser window is closed" (optional)](#disable-stop-debugger-when-browser-window-is-closed-optional)
+- [Fork and clone the documentation repository](#fork-and-clone-the-documentation-repository)
+  - [Fork the documentation repo](#fork-the-documentation-repo)
+  - [Clone the documentation repo](#clone-the-documentation-repo)
+  - [Download and install a GUI to work with Git](#download-and-install-a-gui-to-work-with-git)
+  - [Open tabs in SourceTree](#open-tabs-in-sourcetree)
+  - [Run the website](#run-the-website)
+- [Generate content maps](#generate-content-maps)
+
 ## Configure the website project
 
 ### Download and install TortoiseHg GUI
