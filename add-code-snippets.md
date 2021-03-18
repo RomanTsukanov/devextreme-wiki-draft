@@ -99,7 +99,6 @@ The following is a template for code snippets. It uses placeholders that are des
 ##### React
 
     <!-- tab: App.js -->
-    import React from 'react';
     import 'devextreme/dist/css/dx.light.css';
 
     import {WidgetName}, {
@@ -133,7 +132,7 @@ In Vue and React, you can see the `!!DxNestedComponents` and `!!NestedComponents
 
 If you author docs in VS Code, you can insert the [snippet template](#snippet-template) using a key combination. Do the following to enable this feature:
 
-1. Copy the following archive: \\corp\internal\common\4Tsukanov\VSCode_snippets.zip
+1. Copy the following archive: \\\corp\internal\common\4Tsukanov\VSCode_snippets.zip
 1. Extract it to %APPDATA%\Roaming\Code\User
 
 Now, the following keyboard shortcuts are available:
