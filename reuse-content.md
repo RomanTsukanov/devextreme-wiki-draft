@@ -1,5 +1,14 @@
 # Reuse content (text, code snippets, images)
 
+## Table of contents
+
+- [Predefined placeholders]()
+- [Inheritance by default]()
+    - [Inheritance in the source code (the `inherits` attribute)]()
+    - [Custom inheritance (the `inheritsType` attribute)]()
+- [Imports]()
+- [Includes]()
+
 ## Predefined placeholders
 
 Placeholders are useful when you want to reuse a code snippet or a piece of text with links. Predefined placeholders can be used regardless of how you reuse content; whether through [inheritance](#inheritance-by-default), [imports](#imports), or [includes](#includes), the placeholders work the same.
@@ -43,14 +52,55 @@ Inheritance can be specified in the source code by developers. In this case, Doc
 
 ### Custom inheritance (the `inheritsType` attribute)
 
-Alternatively, you can add the `inheritsType` attribute. It works similarly to `inherits`, but it isn't generated automatically. In the following example, dxHtmlEditor.Options.mentions inherits [dxHtmlEditorMention](https://github.com/DevExpress/devextreme-documentation/tree/20_2/api-reference/_hidden/dxHtmlEditorMention):
+Alternatively, you can add the `inheritsType` attribute to an MD document. It works similarly to `inherits`, but it isn't generated automatically. In the following example, dxHtmlEditor.Options.mentions inherits [dxHtmlEditorMention](https://github.com/DevExpress/devextreme-documentation/tree/20_2/api-reference/_hidden/dxHtmlEditorMention):
 
 [Example](https://raw.githubusercontent.com/DevExpress/devextreme-documentation/20_2/api-reference/10%20UI%20Components/dxHtmlEditor/1%20Configuration/mentions/mentions.md)
 
 ## Imports
 
+Imports allow you to reuse sections (short and full descriptions, function parameter descriptions) of another API reference document in your document. Imports take their name from the syntax, which resembles ES6 `import`.
+
+The following code shows how to import a target document. This line should be at the end of your document.
+
+```html
+<!-- import * from 'api-reference\my folder\my-file.md' -->
+```
+
+The import uses a relative path. If you author documents in Visual Studio Code, you can get this path in just two clicks. Open the folder with version (20_2, 21_1, etc.), find the target document, right-click it, and select Copy Relative Path from the appeared context menu:
+
+![Visual Studio Code - Copy relative path](https://github.com/RomanTsukanov/devextreme-wiki-draft/blob/master/images/reuse-content-copy-relative-path.jpg?raw=true)
+
+You can now use the following directives to insert sections from the target document into yours.
+
+```html
+<!-- %shortDescription% -->
+<!-- %fullDescription% -->
+<!-- %param(paramName)% -->
+<!-- %field(fieldName)% -->
+<!-- %return% -->
+```
+
+[Example](https://raw.githubusercontent.com/DevExpress/devextreme-documentation/20_2/api-reference/10%20UI%20Components/dxPieChart/1%20Configuration/customizeAnnotation.md)
+
 ## Includes
 
-### Without custom placeholders
+Includes allow you to reuse any piece of text. You just need to cut this piece, save it in a separate file in the [includes](https://github.com/DevExpress/devextreme-documentation/tree/20_2/includes) folder, and reference this file from your document as follows:
 
-### With custom placeholders
+```
+#include my-file
+```
+
+Like other documents, includes support [predefined placeholders](#predefined-placeholders), but you can also define custom placeholders. For example, the following include called [common-demobutton-named](https://raw.githubusercontent.com/DevExpress/devextreme-documentation/20_2/includes/common-demobutton-named.md) uses two custom placeholders: `url` and `name`.
+
+```html
+<a href="${{url}}" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">${{name}} Demo</a>
+```
+
+Values for custom placeholders need to be passed from your document. The following code passes `url` and `name` values to the `common-demobutton-named` include:
+
+```
+#include common-demobutton-named with {
+    url: "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/",
+    name: "Bar Chart"
+}
+```
