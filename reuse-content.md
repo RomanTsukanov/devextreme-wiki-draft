@@ -2,12 +2,12 @@
 
 ## Table of contents
 
-- [Predefined placeholders]()
-- [Inheritance by default]()
-    - [Inheritance in the source code (the `inherits` attribute)]()
-    - [Custom inheritance (the `inheritsType` attribute)]()
-- [Imports]()
-- [Includes]()
+- [Predefined placeholders](#predefined-placeholders)
+- [Inheritance by default](#inheritance-by-default)
+    - [Inheritance in the source code (the `inherits` attribute)](#inheritance-in-the-source-code-the-inherits-attribute)
+    - [Custom inheritance (the `inheritsType` attribute)](#custom-inheritance-the-inheritstype-attribute)
+- [Imports](#imports)
+- [Includes](#includes)
 
 ## Predefined placeholders
 
