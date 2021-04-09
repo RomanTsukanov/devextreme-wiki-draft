@@ -2,15 +2,15 @@
 
 ## Table of contents
 
-- [Add a new branch to your fork on GitHub]()
-    - [Clone your fork]()
-    - [Add upstream]()
-- [Ignore docs sources in TortoiseHg]()
-- [Add version to AssemblyInfo.json]()
-- [Add DevExtreme sources to the website]()
-    - [Generate DevExtreme sources]()
-    - [Reference scripts and styles]()
-- [Set up static content publishing]()
+- [Add a new branch to your fork on GitHub](#add-a-new-branch-to-your-fork-on-github)
+    - [Clone your fork](#clone-your-fork)
+    - [Add upstream](#add-upstream)
+- [Ignore docs sources in TortoiseHg](#ignore-docs-sources-in-tortoisehg)
+- [Add version to AssemblyInfo.json](#add-version-to-assemblyinfojson)
+- [Add DevExtreme sources to the website](#add-devextreme-sources-to-the-website)
+    - [Generate DevExtreme sources](#generate-devextreme-sources)
+    - [Reference scripts and styles](#reference-scripts-and-styles)
+- [Set up static content publishing](#set-up-static-content-publishing)
 
 ## Add a new branch to your fork on GitHub
 
