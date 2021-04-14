@@ -4,10 +4,10 @@ Local publishing allows you to share your results with team members.
 
 ## Table of Contents
 
-- [Configure IIS]()
-- [Publish the website to a folder]()
-- [Expose the published website]()
-- [Troubleshooting]()
+- [Configure IIS](#configure-iis)
+- [Publish the website to a folder](#publish-the-website-to-a-folder)
+- [Expose the published website](#expose-the-published-website)
+- [Troubleshooting](#troubleshooting)
 
 ## Configure IIS
 
