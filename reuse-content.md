@@ -76,7 +76,7 @@ You can now use the following directives to insert sections from the target docu
 <!-- %shortDescription% -->
 <!-- %fullDescription% -->
 <!-- %param(paramName)% -->
-<!-- %field(fieldName)% -->
+<!-- %field(paramName.fieldName)% -->
 <!-- %return% -->
 ```
 
